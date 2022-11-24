@@ -1,0 +1,175 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Product Page</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <!-- ------------------------------------navbar----------------------------------- -->
+    <div>
+    
+
+      <div class="flexbox-container">
+        <!-- divide into three pieces like grid 12 cols / 3 each -->
+        <div class="flexbox-item flexbox-item-1">
+
+          <img src="images/product-image-1.png" alt="">
+          <img src="images/product-image-3.png" id="item" alt="">
+
+        </div>
+        <div class="flexbox-item flexbox-item-2">
+
+          <img src="images/product-image-2.png" alt="">
+          <img src="images/product-image-3.png" alt="">
+
+        </div>
+        <div class="flexbox-item flexbox-item-3">
+
+          <span style="opacity: 0.6; font-size:13px; ">CLOTHING</span>
+          <br/>
+          <h1 style="margin-top:0;margin-bottom: 0;">RIBAINE LS TOP - CHOCOLATE</h1>
+          <br/>
+          <span>$ 38.20</span>
+          <br>
+          <span style="opacity: 0.6; font-size:13px; ">inclusive of all taxes</span>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+          molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+          numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+          optio, eaque rerum! Provident similique accusantium nemo autem.</p>
+          <h4>COLOR:Brown</h4>
+          <div class="color-items">
+            <div class="item-color">
+              <div class="color-circle"></div>
+            </div>
+            <div class="item-color">
+              <div class="color-circle" style=" background: #008000;"></div>
+            </div>
+            <div class="item-color">
+              <div class="color-circle" style="background: #800080;"></div>
+            </div>
+            <div class="item-color">
+              <div class="color-circle" style=" background: #0000FF;"></div>
+            </div>
+
+          </div>
+          
+          <h3>SIZE:XS</h3>
+          <div class="top-size">
+          <div class="color-items">
+            <div class="item-color">
+              <div class="color-circle">XS</div>
+            </div>
+            <div class="item-color">
+              <div class="color-circl">XS</div>
+            </div>
+            <div class="item-color">
+              <div class="color-circle" style="background: #800080;"></div>
+            </div>
+            <div class="item-color">
+              <div class="color-circle" style=" background: #0000FF;"></div>
+            </div>
+          
+          </div>
+          </div>
+
+          <br>
+          <p style="opacity: 0.7;margin-bottom:10px;margin-top:0;">Quantity</p>
+          <div id="quantity-btn">
+            <button onclick="decrement()">-</button>
+              <input id=demoInput type=number min=1 max=10>
+            <button onclick="increment()">+</button>
+          </div>
+
+          <br>
+          <div class="flexbox2 finalAdd">
+            <div class="flexbox2-item">
+
+              <button id="addtocart" onclick="addtocart()">
+                Add to cart
+              </button>
+  
+              <button id="buy">
+                Buy it now
+              </button>
+
+            </div>
+          </div>
+          <br>
+
+          <p class="text">
+            A dreamy feminine piece, this top is made from a medium weight, extra soft 
+            cotton blend with a light airy feel and paper-like quality. 
+            <br> <br>
+            Designed with voluminous ruffled straps as well as ruffle details across the 
+            chest, it has a straight cut fit and a square neckline.
+          </p>
+
+                
+            
+<!-- ----------------dropdown------------------------- -->
+
+<br>
+<div class="accordion-body">
+  <div class="accordion">
+
+    <hr>
+
+    <div class="container">
+      <div class="label">
+        <img src="images/icon-materials.svg" style="height:28px;" id="drop1">
+        <p>Materials</p> 
+        <p class="dropdown1"><img src="images/down-arrow.png"></p>
+      </div>
+    </div>
+    <hr>
+
+    <div class="container">
+      <div class="label">
+
+        <img src="images/icon-shipping.svg" style="height:32px;">
+        <p id="dropdown-text" >Shipping&nbsp;&&nbsp;Returns</p> 
+        <p class="dropdown2"><img src="images/down-arrow.png"></p>
+      </div>
+    </div>
+    <hr>
+
+    <div class="container">
+      <div class="label">
+        <img src="images/icon-dimensions.svg" style="height:32px;">
+        <p>Dimensions</p>
+        <p class="dropdown3"><img src="images/down-arrow.png"></p> 
+      </div>
+    </div>
+    <hr>
+
+    <div class="container">
+      <div class="label">
+        <img src="images/icon-care.svg" style="height:32px;">
+        <p>Care&nbsp;Instructions</p>
+        <p class="dropdown4"><img src="images/down-arrow.png"></p>
+      </div>
+    </div>
+    <hr>    
+
+  </div>
+</div>
+
+
+        </div>
+      </div>
+
+
+
+    </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

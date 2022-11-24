@@ -1,0 +1,312 @@
+html, body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.color-items{
+
+  height: 80px;
+  width: 60%;
+  display: flex;
+    justify-content: space-around;
+}
+.color-circle{
+  height: 50%;
+  width: 40%;
+  background: #A52A2A;
+  border-radius: 50%;
+   margin-left: 18px;
+   margin-top: 20px;
+}
+.item-color{
+  border: 1px solid rgb(232, 233, 232);
+  width: 20%;
+
+ 
+  
+}
+.discount{
+  background-color:#002e35;
+  color:white;
+  margin: 0;
+  text-align: center;
+  border: 0;
+}
+.discount h4{
+  margin:0;
+}
+/* NAVBAR */
+nav .logo{
+  /* display: inline; */
+  margin-left: 8em;
+  height:43px;
+}
+nav{
+  align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  line-height: 1em;
+  height: 100px;
+}
+.midnav{
+  display: flex;
+  justify-content: space-evenly;
+}
+nav ul{
+  display: flex;
+  padding-left: 0;
+}
+nav ul li{
+  list-style: none;
+  display: flex;
+}
+nav ul li a{
+  color: black;
+  font-weight: bolder;
+  text-decoration: none;
+  padding: 0.5em 1em;
+}
+nav ul li a span{
+  font-weight: 600;
+}
+.hamburger{
+  display: none;
+  
+}
+.settings{
+  margin-right: 8em;  
+}
+.settings #img2, .settings #img1{
+  padding: 10px;
+}
+
+@media screen and (min-width: 68px) and (max-width: 999px) {
+  .discount h4{
+    font-size: 18px;
+  }
+  .hamburger{
+    display: flex;
+    float:left;
+    margin-bottom: 11px;
+    margin-left: 20px0;
+  }
+  .midnav{
+    display: none;
+  }
+  nav{
+    display: flex;
+    margin: 0;
+  }
+  nav .logo{
+    margin-left: 2em;
+  }
+  .hamburger{
+    margin-left: 20px;
+  }
+  .settings{
+    margin: 0;
+    margin-right: 18px;
+  }
+  .settings #img2{
+    display: none;
+  }
+}
+/*  ================================ main content ===========================  */
+
+.flexbox-container{
+  display: flex;
+}
+.flexbox-item{
+  width:80%;
+  margin: 10px;
+}
+.flexbox-item-1{
+  min-height: 300px;
+}
+.flexbox-item-2{
+  min-height: 300px;
+}
+.flexbox-item-3{
+  min-height: 300px;
+}
+.flexbox-item img{
+  width: 100%;
+  object-fit: contain;
+}
+
+
+/* flexbox change */
+
+@media screen and (min-width: 68px) and (max-width: 380px){
+  .discount h4{
+    font-size: 12px;
+  }
+  .flexbox-container{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  #item{
+    display: none;
+  }
+  .flexbox-item-1{
+    margin: auto;
+  }
+  .flexbox-item-2{
+    /* margin: auto; */
+    display: none;
+    
+  }
+  .flexbox-item-3{
+    /* display:stretch; */
+    /* margin: auto; */
+    margin-left: 1em;
+  }
+  nav .logo{
+    height: 35px;
+  }
+}
+@media screen and (min-width: 381px) and (max-width: 830px){
+  .flexbox-container{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  #item{
+    display: none;
+  }
+  .flexbox-item-1{
+    margin: auto;
+  }
+  .flexbox-item-2{
+    /* margin: auto; */
+    display: none;
+    
+  }
+  .flexbox-item-3{
+    /* display:stretch; */
+    margin: auto;
+    /* margin-left: 1em; */
+  }
+}
+
+
+
+.top-size button{
+  border-radius:50px;
+  width: 51px;
+  height: 33px;
+  border: 1px solid;
+}
+.top-size button:hover{
+  background-color: #0b0b0b;
+  color:white;
+}
+
+
+
+#quantity-btn{
+  height: auto;
+  width: 119px;
+  border:1px solid;
+}
+#quantity-btn button{
+  height: 30px;
+  border: none;
+  background-color: white;
+}
+#quantity-btn input{
+  border:none;
+  height: 30px;
+  width: 71px;
+  text-align: center;
+}
+
+
+#buy, #addtocart{
+  padding: 10px;
+  width: 26em;
+}
+#addtocart:hover{
+  color:white;
+  background-color: #002e35 ;
+  cursor:pointer;
+}
+#buy:hover{
+ cursor:pointer;
+ background-color: white;
+ color: black;
+}
+#buy{
+  position: relative;
+  top:11px;
+  background-color: #002e35;
+  color:white;
+}
+.flexbox2-item{
+  display:flex;
+  flex-direction: column;
+}
+
+
+.text{
+  opacity: 0.9;
+  font-size: 14px;
+  width: 26em;
+}
+
+
+/*================================================== Dropdown Button */
+
+.accordion {
+  margin: 0;
+  font-size: 15px;
+  color: black;
+  background-color: white;
+  width:25em;
+}
+.accordion hr{
+  opacity: 0.5;
+}
+.label{
+  font-size:13px;
+}
+.accordion .container {
+  position: relative;
+  display: flex;
+}
+.accordion .label {
+  position: relative;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+  display: flex;
+  width: 45px;
+}
+.flexbox-item img{
+  margin-top: 10px;
+  padding-right: 13px;
+}
+.according .label p{
+  width: 80px;
+}
+.dropdown1{
+  margin-left:240px;
+}
+.dropdown2{
+  margin-left: 172px;
+}
+.dropdown3{
+  margin-left: 220px;
+}
+.dropdown4{
+  margin-left: 185px;
+}
+
+
+
