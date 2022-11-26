@@ -2,7 +2,7 @@
 
 function increment() {
 
-    document.getElementById('demoInput').stepUp();
+    document.getElementById('demoInput').stepUp(1);
 }
 function decrement() {
     document.getElementById('demoInput').stepDown(1);
@@ -14,4 +14,8 @@ function decrement() {
 function addtocart() {
    
   alert(" The product has been added to the cart ")
+}
+
+function buynow() {
+  alert("The product has been added to the cart")
 }
