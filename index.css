@@ -3,6 +3,7 @@ html, body {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
   padding: 0;
+  box-sizing:border-box;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto Condensed', sans-serif;
@@ -47,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .product-item{
-  border:1px solid red;
+  
   width: 23%;
  
   
@@ -86,7 +87,7 @@ font-style: Regular;
   width:50%
 }
 .img-react{
-  border:1px solid red;
+
   height:100%;
   width:30%
 }
@@ -255,7 +256,7 @@ nav ul li a span{
 
 /* flexbox change */
 
-@media screen and (min-width: 68px) and (max-width: 380px){
+@media screen and (max-width: 380px){
   .discount h4{
     font-size: 12px;
   }
@@ -264,7 +265,44 @@ nav ul li a span{
     flex-direction: column;
     width: 100%;
   }
-   
+.content-box{
+  height: 600px;
+}
+.feature-product{
+  width: 100%;
+
+  height: 550px;
+}
+.pro-img2>h3{
+  font-size: 12px;
+  overflow: hidden ;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+}
+.pro-img2>p {
+  font-size: 12px;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  color: black;
+}
+
+.pro-img{
+  width: 100%;
+}
+.pro-img3{
+  display: none;
+}
+.pro-img4{
+  display: none;
+}
+.product-flex{
+  width: 100%;
+}
   #item{
     display: none;
   }
@@ -438,5 +476,18 @@ nav ul li a span{
   margin-left: 185px;
 }
 
+.main-container{
+  width: 100%;
+  border: 1px solid green;
+}
+@media only screen and (max-width: 360px) {
+  .main-container{
+    width: 100%;
+  }
+  .flexbox-container{
+    width: 100%;
+  }
+  
 
+}
 
