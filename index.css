@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: space-around;
 }
 .content-box{
-  border:1px solid red;
+  border:1px solid rgb(187, 186, 186);
   width: 99%;
   height:400px;
   margin:auto;
@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
   Vertical-align: Top
 }
 .content-h3{
-  border:1px solid red;
+  border:1px solid #EDEDED;
   width:30%;
   margin:auto;
   margin-top:80px;
@@ -36,7 +36,7 @@ height: 300px;
 
 }
 .product-flex{
-  border:1px solid red;
+  
   width:99%;
   height:400px;
   display:flex;
@@ -93,16 +93,16 @@ font-style: Regular;
   width:30%
 }
 .text-react{
-  border:1px solid green;
+
 }
 .img-text{
-  border:1px solid red;
+
   width: 30%;
   display:flex;
    
 }
 .material{
-  border: 1px solid red;
+  
   height: 40px;
   display:flex;
   justify-content:space-around;
