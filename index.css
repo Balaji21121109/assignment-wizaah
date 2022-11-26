@@ -29,10 +29,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 .content-h3{
   border:1px solid red;
-  width:60%;
+  width:30%;
   margin:auto;
   margin-top:80px;
-  height:500px;
+height: 300px;
 
 }
 .product-flex{
@@ -210,6 +210,7 @@ nav ul li a span{
     margin-bottom: 11px;
     margin-left: 20px0;
   }
+
   .midnav{
     display: none;
   }
@@ -265,6 +266,10 @@ nav ul li a span{
     display:flex;
     flex-direction: column;
     width: 100%;
+  }
+  .content-h3{
+    width: 50%;
+    height: 400px;
   }
 .content-box{
   height: 600px;
