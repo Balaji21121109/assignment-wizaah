@@ -15,6 +15,9 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
     justify-content: space-around;
 }
+.dec{
+  background-color: white;
+}
 .content-box{
   border:1px solid rgb(187, 186, 186);
   width: 99%;
@@ -325,13 +328,13 @@ font-style: Regular;
 
 #quantity-btn{
   height: auto;
-  width: 119px;
+  width: 129px;
   border:1px solid;
 }
 #quantity-btn button{
   height: 30px;
   border: none;
-  background-color: rgb(109, 27, 27);
+ 
 }
 #quantity-btn input{
   border:none;
