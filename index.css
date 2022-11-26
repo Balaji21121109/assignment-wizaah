@@ -436,7 +436,6 @@ font-style: Regular;
 
 .main-container{
   width: 100%;
-  border: 1px solid green;
 }
 @media only screen and (max-width: 360px) {
   .main-container{
